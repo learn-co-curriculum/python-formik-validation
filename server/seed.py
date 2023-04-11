@@ -8,7 +8,6 @@ from faker import Faker
 from app import app
 from models import db, Customer
 
-db.init_app(app)
 
 fake = Faker()
 
