@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 from distutils.log import debug
 from flask import Flask, request, jsonify, make_response
 from flask_migrate import Migrate
